@@ -1,3 +1,6 @@
+<img src="z-img-readme/initial.png">
+
+
 # Data Lovers
 
 ## Índice
