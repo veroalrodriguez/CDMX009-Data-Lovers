@@ -19,7 +19,7 @@
         <ul>
           <li><a href="#" class="menu1">PORTAL</a></li>
           <li><a href="#" class="menu2">¿RICK AND MORTY?</a></li>
-          <li><a href="#" class="menu3">CHARACTERES</a></li>
+          <li><a href="#" class="menu3">CHARACTERS</a></li>
         </ul>
         <div class="footer-menu">
         <a href="https://www.instagram.com/rickandmorty/?hl=es-la"
@@ -69,27 +69,28 @@
       <!--PÁGINA TRES-->
       <div class="characteres" id="characteres">
         <br>
-          <select class="sort-style" id="sort">
+          <select class="select-style" id="sort">
             <option value="" selected disabled>Sort by</option>
-            <option value="asc">Name A - Z</option>
-            <option value="des">Name Z - A</option>
+            <option class="option" value="asc">Name A - Z</option>
+            <option class="option" value="des">Name Z - A</option>
           </select>
         <br>
-            <select class="species-style" id="species">
-                  <option value="" selected disabled>Species</option>
-                  <option value="Human">Human</option>
-                  <option value="Animal">Animal</option>
-                  <option value="Alien">Alien</option>
-                  <option value="Humanoid">Humanoid</option>
-                  <option value="Cronenberg">Cronenberg</option>
-                  <option value="Mytholog">Mytholog</option>
-                  <option value="Robot">Robot</option>
+        <br>
+            <select class="select-style" id="select_species">
+                  <option value="">Species</option>
+                  <option class="select-o" value="Human">Human</option>
+                  <option class="select-o" value="Animal">Animal</option>
+                  <option class="select-o" value="Alien">Alien</option>
+                  <option class="select-o" value="Humanoid">Humanoid</option>
+                  <option class="select-o" value="Cronenberg">Cronenberg</option>
+                  <option class="select-o" value="Mytholog">Mytholog</option>
+                  <option class="select-o" value="Robot">Robot</option>
             </select>
-            <select class="status-style" id="status">
-              <option value="" selected disabled>Status</option>
-              <option value="Alive">Alive</option>
-              <option value="Dead">Dead</option>
-              <option value="unknown">unknown</option>
+            <select class="select-style" id="select_status">
+              <option class="select-o" value="">Status</option>
+              <option class="select-o" value="Alive">Alive</option>
+              <option class="select-o" value="Dead">Dead</option>
+              <option class="select-o" value="unknown">unknown</option>
             </select>
         <br>
         <div class="char-container" id="container"></div>

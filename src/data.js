@@ -1,4 +1,10 @@
 //Buscador por nombre
+export const filterName = (rickandmorty, value) => {
+  const array = [];
+
+  rickandmorty.find(object => object.name === value);
+  return array;
+}
 
 //Ordenando
 export const asc = (rickandmorty) => {
@@ -16,8 +22,8 @@ export const filterSpecies = (rickandmorty, value) => {
   const array = [];
 
   rickandmorty.forEach((object) => {
-    object.species.forEach((species) => {
-      if (species === value) {
+    object.species.forEach((select_species) => {
+      if (select_species === value) {
         array.push(object);
       }
     });
@@ -30,8 +36,8 @@ export const filterStatus = (rickandmorty, value) => {
   const array = [];
 
   rickandmorty.forEach((object) => {
-    object.status.forEach((status) => {
-      if (status === value){
+    object.status.forEach((select_status) => {
+      if (select_status === value){
         array.push
       }
     });

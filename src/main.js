@@ -62,18 +62,19 @@
     };
     showList(rickandmorty);
 
-    //Función para buscador
-
-
-
-    //Ordenando a-z z-a
+    //Importando funciones de data.js
     import {
+      filterName,
       asc,
       des,
       filterSpecies,
       filterStatus,
     } from "./data.js"
 
+    //Buscador por nombre
+
+
+    //Ordenando a-z z-a
     const showOrder = () => {
       document.getElementById("sort").addEventListener("change", () => {
         const idOrder = document.getElementById("sort").value;
@@ -96,8 +97,8 @@
 
     //Monstrando por especie
     const showSpecies = () => {
-      document.getElementById("species").addEventListener("change", () => {
-        const idSpecies = document.getElementById("species").value;
+      document.getElementById("select_species").addEventListener("change", () => {
+        const idSpecies = document.getElementById("select_species").value;
         let arraySpecies = [];
         switch (idSpecies) {
           case "Human":
@@ -138,8 +139,8 @@
 
     //Monstrando por Status
     const showStatus = () => {
-      document.getElementById("status").addEventListener("change", () => {
-        const idStatus = document.getElementById("status").value;
+      document.getElementById("select_status").addEventListener("change", () => {
+        const idStatus = document.getElementById("select_status").value;
         let arrayStatus = [];
         switch (idStatus) {
           case "Alive":

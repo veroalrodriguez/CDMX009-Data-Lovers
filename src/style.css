@@ -167,9 +167,44 @@ h3 {
   line-height: 21px;
   color: #37455C;
 }
-/*Characteres:Filtros*/
-.selectors{
-
+/*Characteres:Sort by*/
+.sort-style{
+	width: 200px;
+	font-size: 15px;
+	border-radius: 15px;
+	border: 1px solid #614A25;
+	padding: 0px 10px 0px 20px;
+	box-sizing: border-box;
+	height: 35px;
+	box-shadow: 3px 3px 7px 1px #898989;
+	display: flex;
+}
+.sort-style:hover{
+	border: 1px solid #E4FFE7;
+}
+.sort-style .option{
+	display: flex;
+	background-color: #37455C;
+	color: #FFF;
+}
+.select-style{
+	width: 200px;
+	font-size: 15px;
+	border-radius: 15px;
+	border: 1px solid #614A25;
+	padding: 0px 10px 0px 20px;
+	box-sizing: border-box;
+	height: 35px;
+	box-shadow: 3px 3px 7px 1px #898989;
+	display: inline-block;
+}
+.select-style:hover{
+	border: 1px solid #E4FFE7;
+}
+.select-style .select-o{
+	display: flex;
+	background-color: #37455C;
+	color: #FFF;
 }
 /*Charactetes:Cards*/
 .characteres{
